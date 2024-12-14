@@ -1,0 +1,413 @@
+{
+  "id": "d44674b4-165e-4b4f-a18a-af56f5742081",
+  "version": "2.0",
+  "name": "Goibibo",
+  "url": "https://www.goibibo.com",
+  "tests": [{
+    "id": "aafee50a-6f49-401a-b1e6-dfc676e33f90",
+    "name": "Goibibo",
+    "commands": [{
+      "id": "87eda7b0-9aba-421d-8719-c2c2c2c9b76d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c66a890-dac5-4dc8-ad95-7467421ed37b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85850fb6-0d10-49e6-a216-4aa383b1dd29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logSprite",
+      "targets": [
+        ["css=.logSprite", "css:finder"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a074083f-ad00-4752-9838-4fe47a8eb1f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1f95z5i-1:nth-child(2) .sc-1f95z5i-4",
+      "targets": [
+        ["css=.sc-1f95z5i-1:nth-child(2) .sc-1f95z5i-4", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/header/ul/li[2]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Hotels')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "065e0744-0a7b-443f-99da-a8f045812d8d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEARCH",
+      "targets": [
+        ["linkText=SEARCH", "linkText"],
+        ["css=.SearchBlockstyles__HswSearchCta-sc-e3pqob-2", "css:finder"],
+        ["xpath=//a[contains(text(),'SEARCH')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[3]/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SEARCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18265616-dd9a-4c84-9555-6a89f77db0d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SortingNewUIstyles__SortingFilterItem-sc-16hh811-0:nth-child(3) > .SortingNewUIstyles__FilterName-sc-16hh811-1",
+      "targets": [
+        ["css=.SortingNewUIstyles__SortingFilterItem-sc-16hh811-0:nth-child(3) > .SortingNewUIstyles__FilterName-sc-16hh811-1", "css:finder"],
+        ["xpath=//div[@id='navigation_header']/div/div/div/li[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Price - Low to High')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7a49785-dbab-47bb-a962-bba728bf0a71",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3085.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e31c84ba-ba27-4c36-9593-404ebf7dafcf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=The Ritz-Carlton Bengaluru |",
+      "targets": [
+        ["linkText=The Ritz-Carlton Bengaluru |", "linkText"],
+        ["css=.footer-seostyles__PopularLinkList-sc-1ycveqg-11:nth-child(2) > .footer-seostyles__PopularLinkListItem-sc-1ycveqg-12:nth-child(17) > .footer-seostyles__PopularLink-sc-1ycveqg-13", "css:finder"],
+        ["xpath=//div[@id='root']/div/section[2]/div/div/ul[2]/li[17]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.goibibo.com/hotels/the-ritz-carlton-hotel-in-bangalore-4819074922660770156/')]", "xpath:href"],
+        ["xpath=//ul[2]/li[17]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'The Ritz-Carlton Bengaluru |')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "981a21ad-6c7d-4eb3-8266-76477f2407a3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=The Ritz-Carlton Bengaluru |",
+      "targets": [
+        ["linkText=The Ritz-Carlton Bengaluru |", "linkText"],
+        ["css=.footer-seostyles__PopularLinkList-sc-1ycveqg-11:nth-child(2) > .footer-seostyles__PopularLinkListItem-sc-1ycveqg-12:nth-child(17) > .footer-seostyles__PopularLink-sc-1ycveqg-13", "css:finder"],
+        ["xpath=//div[@id='root']/div/section[2]/div/div/ul[2]/li[17]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.goibibo.com/hotels/the-ritz-carlton-hotel-in-bangalore-4819074922660770156/')]", "xpath:href"],
+        ["xpath=//ul[2]/li[17]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'The Ritz-Carlton Bengaluru |')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a734b04-489a-431a-b35d-13a24f479dff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SortingNewUIstyles__SortingFilterItem-sc-16hh811-0:nth-child(5) > .SortingNewUIstyles__FilterName-sc-16hh811-1",
+      "targets": [
+        ["css=.SortingNewUIstyles__SortingFilterItem-sc-16hh811-0:nth-child(5) > .SortingNewUIstyles__FilterName-sc-16hh811-1", "css:finder"],
+        ["xpath=//div[@id='navigation_header']/div/div/div/li[4]/span", "xpath:idRelative"],
+        ["xpath=//li[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Goibibo Reviews - Highest First')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "120796f2-900e-4b8a-bb28-48d7c4530da5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Taj Resort & Convention Centre Goa",
+      "targets": [
+        ["linkText=Taj Resort & Convention Centre Goa", "linkText"],
+        ["css=.footer-seostyles__PopularLinkList-sc-1ycveqg-11:nth-child(2) > .footer-seostyles__PopularLinkListItem-sc-1ycveqg-12:nth-child(21) > .footer-seostyles__PopularLink-sc-1ycveqg-13", "css:finder"],
+        ["xpath=//a[contains(text(),'Taj Resort & Convention Centre Goa')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/section[2]/div/div/ul[2]/li[21]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.goibibo.com/hotels/taj-resort-and-convention-centre-goa-hotel-in-goa-3932890167304202677/')]", "xpath:href"],
+        ["xpath=//ul[2]/li[21]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Taj Resort & Convention Centre Goa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "288924d6-622f-47f2-ac3e-9bd460124f34",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Taj Resort & Convention Centre Goa",
+      "targets": [
+        ["linkText=Taj Resort & Convention Centre Goa", "linkText"],
+        ["css=.footer-seostyles__PopularLinkList-sc-1ycveqg-11:nth-child(2) > .footer-seostyles__PopularLinkListItem-sc-1ycveqg-12:nth-child(21) > .footer-seostyles__PopularLink-sc-1ycveqg-13", "css:finder"],
+        ["xpath=//a[contains(text(),'Taj Resort & Convention Centre Goa')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/section[2]/div/div/ul[2]/li[21]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.goibibo.com/hotels/taj-resort-and-convention-centre-goa-hotel-in-goa-3932890167304202677/')]", "xpath:href"],
+        ["xpath=//ul[2]/li[21]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Taj Resort & Convention Centre Goa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8663f2af-18ce-418f-a745-7afafd20fad8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3757.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "897f91c0-ec61-4930-9c29-d56560af13d0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3816)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d4f8f52-29f8-4aca-992e-9a7559f00c41",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4038.39990234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfcae602-e609-4a30-91ee-e337446477bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#htl_id_seo_202402281820431971 .HotelCardV2styles__PropertyLocationWrapper-sc-6przws-24:nth-child(2) .PersuasionsUnifstyles__ElementUIWrapper-sc-wislna-1:nth-child(2) > .PersuasionTextUI__PersuasionTextWrapperSpan-sc-mkqdob-1",
+      "targets": [
+        ["css=#htl_id_seo_202402281820431971 .HotelCardV2styles__PropertyLocationWrapper-sc-6przws-24:nth-child(2) .PersuasionsUnifstyles__ElementUIWrapper-sc-wislna-1:nth-child(2) > .PersuasionTextUI__PersuasionTextWrapperSpan-sc-mkqdob-1", "css:finder"],
+        ["xpath=//div[@id='htl_id_seo_202402281820431971']/div/div[2]/div/div/div/div/div/span[2]/span", "xpath:idRelative"],
+        ["xpath=//div[23]/div/div[2]/div/div/div/div/div/span[2]/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4364",
+      "windowTimeout": 2000
+    }, {
+      "id": "a7fe9f75-1e3c-40b4-bde7-6b0c54d558f4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4364}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "877a8dee-0068-44bd-b581-968454759b22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HappyAngleRightIcon-sc-1vqys28-0",
+      "targets": [
+        ["css=.HappyAngleRightIcon-sc-1vqys28-0", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bf879a0-4be8-4fec-869d-caec0dc2dd8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HappyAngleRightIcon-sc-1vqys28-0",
+      "targets": [
+        ["css=.HappyAngleRightIcon-sc-1vqys28-0", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5db6ae6-59b2-4252-87ef-e2be6efcf179",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HappyAngleRightIcon-sc-1vqys28-0",
+      "targets": [
+        ["css=.HappyAngleRightIcon-sc-1vqys28-0", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "17598eef-25ae-4da3-bfa1-bf6f90eb151d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HappyAngleRightIcon-sc-1vqys28-0",
+      "targets": [
+        ["css=.HappyAngleRightIcon-sc-1vqys28-0", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc70ec69-df42-4fe5-99cc-957cd3a7d184",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HappyAngleRightIcon-sc-1vqys28-0",
+      "targets": [
+        ["css=.HappyAngleRightIcon-sc-1vqys28-0", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "df0530da-b92e-4290-bca1-f866be2ff6a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Carouselstyles__CarouselControls-sc-1hv3vvl-4",
+      "targets": [
+        ["css=.Carouselstyles__CarouselControls-sc-1hv3vvl-4", "css:finder"],
+        ["xpath=//div[@id='root']/div/section/section[2]/div/div/div/div/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c743cc9c-fa50-4965-ad06-71dc7fddc44b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,32.79999923706055)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6daec3e-828d-4438-889c-ddf15787c535",
+      "comment": "",
+      "command": "click",
+      "target": "id=modal-overlay",
+      "targets": [
+        ["id=modal-overlay", "id"],
+        ["css=#modal-overlay", "css:finder"],
+        ["xpath=//div[@id='modal-overlay']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-root']/div", "xpath:idRelative"],
+        ["xpath=//body/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b551013-67f2-4b56-8fb7-cff50f1b30d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.RightDoubleArrow__RightDoubleArrowIcon-sc-1tk0dpe-0",
+      "targets": [
+        ["css=.RightDoubleArrow__RightDoubleArrowIcon-sc-1tk0dpe-0", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "395fde5b-0109-4041-9a02-7940e79fceb3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2368)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3dd2ec7-b0fd-4500-b057-05a9d308574e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2416.800048828125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d022e794-bac4-4791-aae2-2f6a82ab0255",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ReviewInfostyles__NewViewMap-sc-extx54-13",
+      "targets": [
+        ["css=.ReviewInfostyles__NewViewMap-sc-extx54-13", "css:finder"],
+        ["xpath=//div[@id='root']/div/section/section[2]/div/div/section/section/div/div[2]/div[2]/a/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed0221f8-394e-479f-8459-7b79becb3789",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1717.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96045080-a1ae-4d2e-8172-33dd998d5b0e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2696)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "035285a6-b107-41e8-b2a2-926a5e4fa7a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#similar-hotels-1 .dwebCommonstyles__FlexCentered-sc-112ty3f-6",
+      "targets": [
+        ["css=#similar-hotels-1 .dwebCommonstyles__FlexCentered-sc-112ty3f-6", "css:finder"],
+        ["xpath=//section[@id='similar-hotels-1']/section/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/section/div/div/section/section/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6330",
+      "windowTimeout": 2000
+    }, {
+      "id": "aa66cf2a-6253-4656-b46f-9d42472040c3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6330}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30b8e10e-8b95-463b-83d2-70caa39683e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HappyAngleRightIconNew-sc-1chvzb2-0 path",
+      "targets": [
+        ["css=.HappyAngleRightIconNew-sc-1chvzb2-0 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c01659ee-9016-4c85-8928-4c3cf09bf786",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HappyAngleRightIconNew-sc-1chvzb2-0 path",
+      "targets": [
+        ["css=.HappyAngleRightIconNew-sc-1chvzb2-0 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e978890b-4abc-4753-9bbd-f166455d2e6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HappyAngleRightIconNew-sc-1chvzb2-0 path",
+      "targets": [
+        ["css=.HappyAngleRightIconNew-sc-1chvzb2-0 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "00a2a81c-a063-41a4-909f-d9ad7f3bf2cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HappyAngleRightIconNew-sc-1chvzb2-0 path",
+      "targets": [
+        ["css=.HappyAngleRightIconNew-sc-1chvzb2-0 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c48062a-e50d-40b6-a133-176ba68829ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HappyAngleRightIconNew-sc-1chvzb2-0 path",
+      "targets": [
+        ["css=.HappyAngleRightIconNew-sc-1chvzb2-0 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dd2af42-e48b-4e6e-af72-0238b43d0dfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CaptivateBannerGalleryWithVideostyles__ImageItemWrapper-sc-1sonew0-28:nth-child(1) > img",
+      "targets": [
+        ["css=.CaptivateBannerGalleryWithVideostyles__ImageItemWrapper-sc-1sonew0-28:nth-child(1) > img", "css:finder"],
+        ["xpath=//img[@alt='Hotel Eurasia - Tap to explore photos']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/section/section[2]/div/div/div/div/div[2]/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f152c57a-fb0d-45f8-8f72-e68416c9ea65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gngHJY path:nth-child(2)",
+      "targets": [
+        ["css=.gngHJY path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c42e4199-a9a0-4c31-be6b-0924d31d47fc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["aafee50a-6f49-401a-b1e6-dfc676e33f90"]
+  }],
+  "urls": ["https://www.goibibo.com/"],
+  "plugins": []
+}
